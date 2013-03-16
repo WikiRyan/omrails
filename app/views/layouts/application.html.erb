@@ -8,7 +8,17 @@
 </head>
 <body>
 
+<%= link_to "Home", root_path %>
+<%= link_to "About", about_path %>
+
+
 <%= yield %>
+
+<div class="footer">
+	<small>
+<%= link_to "By Ryan Konicek", "http://wikiryan.com"%>
+	</small>
+</div>
 
 </body>
 </html>
