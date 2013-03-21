@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def howitworks
   end
   
+  def helpstarttest
+  end
 end
