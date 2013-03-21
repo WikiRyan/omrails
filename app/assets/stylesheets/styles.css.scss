@@ -1,0 +1,40 @@
+/*@import url(http://fonts.googleapis.com/css?family-Oxygen);*/
+
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$btnPrimaryBackground: Blue;
+@import 'bootstrap';
+body{
+    padding-top: 60px;
+}
+
+
+@import 'bootstrap-responsive';
+
+.footer{
+    margin-top: 50px;
+    color: $grayLight;
+    a{
+        color: $gray;
+    }
+}
+
+.hero-unit {
+background: url(http://wikiryan.com/wp-content/uploads/2013/03/WordPress_hackathon1.png) no-repeat center center ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border: 1px solid #dadada;
+color: #333;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+text-shadow: 0em 0em 1.8em #fff;
+}
+
+.apply-button {text-align: center;}
