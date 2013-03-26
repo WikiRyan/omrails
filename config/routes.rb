@@ -2,6 +2,12 @@ Omrails::Application.routes.draw do
 
 
 
+  devise_for :views
+
+  devise_for :installs
+
+  devise_for :users
+
   root :to => 'pages#home'
   get 'about' => 'pages#about'
   get 'howitworks' => 'pages#HowItWorks'
